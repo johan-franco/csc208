@@ -63,7 +63,7 @@ If a set B has “n” elements, then the total number of subsets of B is 2<sup>
 
 
 Problem 2 Solution:
-To solve you need to recognize that the probability for New Marbles and Yellow Marbles are: $$\Large\frac{45}{100}, \frac{25}{100}$$
+We get the following probabilities for the New Marbles and Yellow Marbles are: $$\Large\frac{45}{100}, \frac{25}{100}$$
 To calculate the possibility of the marbles being new or yellow you must account for the marbles that are both new and yellow, which is: $$\Large\frac{45}{100} * \frac{25}{100}$$
 Meaning the probability can be represented by the following:
 $$\Large\frac{45}{100} + \frac{25}{100} - \frac{45}{100} * \frac{25}{100}$$
