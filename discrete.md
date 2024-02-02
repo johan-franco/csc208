@@ -78,4 +78,4 @@ In the word “LEADER”, there are 6 letters. In that, E is repeated twice. Hen
 [Discrete mathematics](https://brilliant.org/wiki/discrete-mathematics/#:~:text=Discrete%20mathematics%20is%20the%20study,can%20be%20finite%20or%20infinite.)
 [Discrete mathematics](https://en.wikipedia.org/wiki/Discrete_mathematics)
 [Learn more](https://www.geeksforgeeks.org/discrete-mathematics-tutorial/)
-
+[Problem 2 Link](https://www.varsitytutors.com/gmat_math-help/arithmetic/problem-solving-questions/discrete-probability)
