@@ -58,18 +58,19 @@ Finite State Machines:
 
 3. Find out the number of ways that the letters of the word “LEADER” can be arranged?
 
-Problem 1 Solution:
+### Problem Solutions:
+Problem 1:
 If a set B has “n” elements, then the total number of subsets of B is 2<sup>n</sup>. For example, if B contains 5 elements, say B = {1, 2, 3, 4, 5}, then the total number of subsets of B is 2<sup>5</sup> = 32.
 
 
-Problem 2 Solution:
+Problem 2:
 We get the following probabilities for the New Marbles and Yellow Marbles: $$\Large\frac{45}{100}, \frac{25}{100}$$
 To calculate the possibility of the marbles being new or yellow we must account for the marbles that are both new and yellow, which is: $$\Large\frac{45}{100} * \frac{25}{100}$$
 Meaning the probability for a marble to be new or yellow can be represented by the following:
 $$\Large\frac{45}{100} + \frac{25}{100} - \frac{45}{100} * \frac{25}{100}$$
 Solving results in:  $$\Large\frac{47}{80} $$
 
-Problem 3 Solution:
+Problem 3:
 In the word “LEADER”, there are 6 letters. In that, E is repeated twice. Hence, the total number of ways that the letters can be arranged = 6!/2! As we know, 6! = 720 and 2! = 2 Therefore, the number of ways that the letters can be arranged = 720/2 = 360.
 
 
