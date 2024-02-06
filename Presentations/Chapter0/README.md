@@ -76,7 +76,13 @@ Solving results in:  $$\Large\frac{47}{80} $$
 Problem 3:
 In the word “LEADER”, there are 6 letters. In that, E is repeated twice. Hence, the total number of ways that the letters can be arranged = 6!/2! As we know, 6! = 720 and 2! = 2 Therefore, the number of ways that the letters can be arranged = 720/2 = 360.
 
->! This is a spoiler
+<p>
+<details><summary>Cool Dropdown #3</summary>
+
+Easter egg!
+
+</details>
+</p>
 
 [Discrete Math Problems](https://byjus.com/maths/discrete-mathematics-questions/)
 [Discrete mathematics](https://brilliant.org/wiki/discrete-mathematics/#:~:text=Discrete%20mathematics%20is%20the%20study,can%20be%20finite%20or%20infinite.)
