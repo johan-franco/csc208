@@ -3,8 +3,11 @@
 Discrete Mathematics is a branch of mathematics that deals with objects that can assume only distinct, separated values. Unlike continuous mathematics, where the concepts of calculus and real analysis are focused on topics that vary smoothly, discrete mathematics covers areas such as combinatorics, graph theory, and the theory of computation. It includes the study of algorithms, integers, graphs, and statements in logic. Discrete mathematics is fundamental to computer science, as it is concerned with the study of algorithms, data structures, and the efficiency of algorithms. It also plays a critical role in cryptography, logic, discrete probability, and the design of computer networks.
 
 
-## Why is it called discrete
+
+## Why it is called discrete
 Discrete mathematics is called "discrete" because it deals with distinct, separate values or objects. The term "discrete" contrasts with "continuous." In discrete mathematics, we study entities that can be counted as separate and distinct units. This distinction is crucial for understanding the nature of problems and phenomena that discrete mathematics aims to address.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Discrete_mathematics) defines and supports this definiton with the following,"Discrete mathematics is the study of mathematical structures that can be considered "discrete" (in a way analogous to discrete variables, having a bijection with the set of natural numbers) rather than "continuous" (analogously to continuous functions)."
 
 Distinct Elements: The subjects of study in discrete mathematics, such as integers, graphs, and logical statements, are characterized by their separateness. For example, when dealing with integers, we consider individual numbers like 1, 2, 3, etc., without considering the values in between, unlike in continuous mathematics where you might consider every possible value within an interval, such as all real numbers between 0 and 1.
 
