@@ -3,7 +3,6 @@
 Discrete Mathematics is a branch of mathematics that deals with objects that can assume only distinct, separated values. Unlike continuous mathematics, where the concepts of calculus and real analysis are focused on topics that vary smoothly, discrete mathematics covers areas such as combinatorics, graph theory, and the theory of computation. It includes the study of algorithms, integers, graphs, and statements in logic. Discrete mathematics is fundamental to computer science, as it is concerned with the study of algorithms, data structures, and the efficiency of algorithms. It also plays a critical role in cryptography, logic, discrete probability, and the design of computer networks.
 
 
-
 ## Why it is called discrete
 Discrete mathematics is called "discrete" because it deals with distinct, separate values or objects. The term "discrete" contrasts with "continuous." In discrete mathematics, we study entities that can be counted as separate and distinct units. This distinction is crucial for understanding the nature of problems and phenomena that discrete mathematics aims to address.
 
@@ -63,7 +62,8 @@ Finite State Machines:
 
 ### Problem Solutions:
 Problem 1:
-If a set B has “n” elements, then the total number of subsets of B is 2<sup>n</sup>. For example, if B contains 5 elements, say B = {1, 2, 3, 4, 5}, then the total number of subsets of B is 2<sup>5</sup> = 32.
+
+>! If a set B has “n” elements, then the total number of subsets of B is 2<sup>n</sup>. For example, if B contains 5 elements, say B = {1, 2, 3, 4, 5}, then the total number of subsets of B is 2<sup>5</sup> = 32.
 
 
 Problem 2:
@@ -76,7 +76,7 @@ Solving results in:  $$\Large\frac{47}{80} $$
 Problem 3:
 In the word “LEADER”, there are 6 letters. In that, E is repeated twice. Hence, the total number of ways that the letters can be arranged = 6!/2! As we know, 6! = 720 and 2! = 2 Therefore, the number of ways that the letters can be arranged = 720/2 = 360.
 
-
+>! This is a spoiler
 
 [Discrete Math Problems](https://byjus.com/maths/discrete-mathematics-questions/)
 [Discrete mathematics](https://brilliant.org/wiki/discrete-mathematics/#:~:text=Discrete%20mathematics%20is%20the%20study,can%20be%20finite%20or%20infinite.)
