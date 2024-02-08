@@ -61,28 +61,35 @@ Finite State Machines:
 3. Find out the number of ways that the letters of the word “LEADER” can be arranged?
 
 ### Problem Solutions:
-Problem 1:
+<p>
+<details><summary>Problem Answer #1</summary>
 
->! If a set B has “n” elements, then the total number of subsets of B is 2<sup>n</sup>. For example, if B contains 5 elements, say B = {1, 2, 3, 4, 5}, then the total number of subsets of B is 2<sup>5</sup> = 32.
+If a set B has “n” elements, then the total number of subsets of B is 2<sup>n</sup>. For example, if B contains 5 elements, say B = {1, 2, 3, 4, 5}, then the total number of subsets of B is 2<sup>5</sup> = 32.
 
+</details>
+</p>
 
-Problem 2:
+<p>
+<details><summary>Problem Answer #2</summary>
+
 We get the following probabilities for the New Marbles and Yellow Marbles: $$\Large\frac{45}{100}, \frac{25}{100}$$
 To calculate the possibility of the marbles being new or yellow we must account for the marbles that are both new and yellow, which is: $$\Large\frac{45}{100} * \frac{25}{100}$$
 Meaning the probability for a marble to be new or yellow can be represented by the following:
 $$\Large\frac{45}{100} + \frac{25}{100} - \frac{45}{100} * \frac{25}{100}$$
 Solving results in:  $$\Large\frac{47}{80} $$
 
-Problem 3:
-In the word “LEADER”, there are 6 letters. In that, E is repeated twice. Hence, the total number of ways that the letters can be arranged = 6!/2! As we know, 6! = 720 and 2! = 2 Therefore, the number of ways that the letters can be arranged = 720/2 = 360.
+</details>
+</p>
 
 <p>
-<details><summary>Cool Dropdown #3</summary>
+<details><summary>Problem Answer #2</summary>
 
-Easter egg!
+In the word “LEADER”, there are 6 letters. In that, E is repeated twice. Hence, the total number of ways that the letters can be arranged = 6!/2! As we know, 6! = 720 and 2! = 2 Therefore, the number of ways that the letters can be arranged = 720/2 = 360.
 
 </details>
 </p>
+
+
 
 [Discrete Math Problems](https://byjus.com/maths/discrete-mathematics-questions/)
 [Discrete mathematics](https://brilliant.org/wiki/discrete-mathematics/#:~:text=Discrete%20mathematics%20is%20the%20study,can%20be%20finite%20or%20infinite.)
