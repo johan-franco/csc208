@@ -43,13 +43,14 @@ conditional </li>
     <li>The use of or is inclusive meaning that if both conditions are satisfied it's truth value is true not false</li>
     <li>Implications are only considered false if P is true with Q being false otherwise they are considered true. Let's consider if I were to say that if Trostin were to sleep more then he would recieve higher grades. Now if he were to not sleep more but stil recieve higher grades, what I said would not be false as I never said that he could only improve his grades through sleeping more, rather I stated his grades would improve if he were to sleep more. The only way to say that I'm wrong is if he were to sleep more and not improve his grades.</li>
     <li></li>
+    <li></li>
 </ul>
 
 <h2>Important Images:</h2>
-<img src = "TruthTable.png"></img>
+<img src = "../resources/TruthTable.png"></img>
 <br><br>
-<img src = "Proofs.png"></img>
+<img src = "../resources/Proofs.png"></img>
 <br><br>
-<img src = "converse.png"></img>
+<img src = "../resources/converse.png"></img>
 <br><br>
-<img src = "bicondtional.png"></img>
+<img src = "../resources/biconditional.png"></img>
