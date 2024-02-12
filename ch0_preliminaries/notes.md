@@ -51,4 +51,5 @@ conditional </li>
 <img src = "Proofs.png"></img>
 <br><br>
 <img src = "converse.png"></img>
-<li> </li>
+<br><br>
+<img src = "bicondtional.png"></img>
