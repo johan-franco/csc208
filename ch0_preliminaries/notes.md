@@ -47,7 +47,10 @@ conditional </li>
     <li>Usually implications contain false converses (If a number greater than 2 is prime, then that
 number is odd. However, just because a number is odd does not mean it
 is prime), however the converse of a statement can also be true, an example of this being the pythagorean theorem. </li>
-    <li>Contrapositives also have the same truth value as the orignal implication</li>
+    <li>Contrapositives also have the same truth value as the orignal implication. Meaning by analyzing the contrapositive we can make conclusions about the original implication</li>
+    <li>Biconditionals can be thought of having two parts, the implication and the converse. </li>
+    <li></li>
+    <li></li>
     <li></li>
     <li></li>
 </ul>
@@ -60,3 +63,5 @@ is prime), however the converse of a statement can also be true, an example of t
 <img src = "../resources/converse.png"></img>
 <br><br>
 <img src = "../resources/biconditional.png"></img>
+<br><br>
+<img src = "../resources/Necessary.png"></img>
