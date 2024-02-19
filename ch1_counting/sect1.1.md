@@ -42,3 +42,9 @@ Even though we don't know if they have any intersection in elements the anwer is
 
 ## 7
 The answer is 39. We know that if everyone watched one show then it would be 28+19+24=71, however since we know that isn't the case and some watched 2 of the shows we can subtract that from the total count, 28+19+24-10-16-14=31. This would be the end if 8 hadn't watched all the shows meaning that the number we subtracted was too great, which is why we add the eight people back in resulting in 39 people.
+
+## 8
+
+15 + 20 + 9 = 44 (amount if everyone said they like only one type of potato)
+44 - 12 - 5 - 6 + 3 = 24 (people that liked all types)= 21 (subtracts all that liked two types of potatoes or more)
+24 is the number of individuals that at least like one type of potato, meaning 6 people in total hate potatoes in the school.
