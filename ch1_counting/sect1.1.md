@@ -48,3 +48,6 @@ The answer is 39. We know that if everyone watched one show then it would be 28+
 15 + 20 + 9 = 44 (amount if everyone said they like only one type of potato)
 44 - 12 - 5 - 6 + 3 = 24 (people that liked all types)= 21 (subtracts all that liked two types of potatoes or more)
 24 is the number of individuals that at least like one type of potato, meaning 6 people in total hate potatoes in the school.
+
+## 9
+We can calculate the number of mutiples of 5, 6 and 7 by having them be divided by 100 and truncating the decimal, 100 + 83 + 71 = 254. However, this includes some mutiples repeatedly, which we can fix by dividing 83 by 7, 71 by 5, 83 by 5 truncating the decimal and subtracting from 254. The reasoning behind this is that 6 has 83 mutiples in 500 and each 7th one will be a multiple that 7 shares with 6, which is why we subtract from the total and do the same with 5. 
