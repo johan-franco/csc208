@@ -27,3 +27,11 @@ b) The reason why the principle you use does not matter is because the crux of t
 c) It should be 6/16 * 10/16 = 15/64, 15/64*4096(total combinations for 3 digits)=960 as there are 6 letters and 10 digits inbetween, which would then be multiplied together as it says 'and'.
 
 d) There should be 1536 3 digit hexadecimal (6/16*4096) that start with A-F, 2560 that end with 0-9 and ones that start and end with both would be 960.
+
+## 5
+
+a) The largest possible intersection would be 10 as A is the smallest of the two sets with a size of 10.
+
+b) The smallest amount of elements that they could have in common is 0.
+
+c) The possible values are inbetween 15 and 25 because at most they can have 10 values in common ( set B has 15 values) or have none in common meaning set A and B would be added, equaling 25.
