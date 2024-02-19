@@ -11,3 +11,19 @@ A) Assuming you have to only wear one then you have 8 different options for neck
 B) If you must wear one of both then you have 3*5 options, which is 15.
 
 C) We have the orginal 15 options (3 * 5), and the shirts are chosen with either a skirt or pants meaning the choices is added by 5(shirts) * 7(skirts and pants added). Additionally, you can simply wear a dress which would not need a shirt or pant. Therefore the equation should be the following 5 * 7 + 7 = 42 outfits.
+
+## 3
+
+a) This would be the answer if the question were to be if I can only watch one movie how many options do I have?
+
+b) 63 would be the answer if the question was if I watch one comedy and one horror movie how many choices do I have?
+
+## 4
+
+a) The total combinations of these two sets are 16 * 16, which is 256. The chance for it to be E or F for the first digit is 2/16 meaning there is a 32/256 that a digit is E or F.
+
+b) The reason why the principle you use does not matter is because the crux of the question only involves set A. There is no reliance on set B, if there was then you would have to use the multiplicative principle.
+
+c) It should be 6/16 * 10/16 = 15/64, 15/64*4096(total combinations for 3 digits)=960 as there are 6 letters and 10 digits inbetween, which would then be multiplied together as it says 'and'.
+
+d) There should be 1536 3 digit hexadecimal (6/16*4096) that start with A-F, 2560 that end with 0-9 and ones that start and end with both would be 960.
