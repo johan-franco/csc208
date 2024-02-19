@@ -35,3 +35,10 @@ a) The largest possible intersection would be 10 as A is the smallest of the two
 b) The smallest amount of elements that they could have in common is 0.
 
 c) The possible values are inbetween 15 and 25 because at most they can have 10 values in common ( set B has 15 values) or have none in common meaning set A and B would be added, equaling 25.
+
+## 6
+
+Even though we don't know if they have any intersection in elements the anwer is 13 as we calculate |A ∪ B| though this formula: |A ∪ B| − |A ∩ B|, which cancels out the unknown element into 13.
+
+## 7
+The answer is 39. We know that if everyone watched one show then it would be 28+19+24=71, however since we know that isn't the case and some watched 2 of the shows we can subtract that from the total count, 28+19+24-10-16-14=31. This would be the end if 8 hadn't watched all the shows meaning that the number we subtracted was too great, which is why we add the eight people back in resulting in 39 people.
