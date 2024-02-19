@@ -51,3 +51,6 @@ The answer is 39. We know that if everyone watched one show then it would be 28+
 
 ## 9
 We can calculate the number of mutiples of 5, 6 and 7 by having them be divided by 100 and truncating the decimal, 100 + 83 + 71 = 254. However, this includes some mutiples repeatedly, which we can fix by dividing 83 by 7, 71 by 5, 83 by 5 truncating the decimal and subtracting from 254. The reasoning behind this is that 6 has 83 mutiples in 500 and each 7th one will be a multiple that 7 shares with 6, which is why we subtract from the total and do the same with 5. 
+
+## 10 
+Same principle as before we divide 1000 by our numbers, 3, 5 and 7 (333+142+200 = 675). Now because we are including mutiples that 3, 5 and 7 share we have to subtract or exclude these values. The number of these values can be determined by dividing and truncating the amount of times each fit into 1000. However unlike the other 3, 5, 7 have values that they all share like 105 meaning we have to add a value, otherwise we would exclude to much. This resulted in 542 (rounding up) as my answer, $$333+142+200-\left(\frac{333}{7}\right)-\left(\frac{142}{5}\right)-\frac{333}{5}+\frac{\frac{333}{5}}{7} = 542$$
