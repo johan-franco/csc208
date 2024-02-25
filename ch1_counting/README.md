@@ -22,3 +22,13 @@ B, then the event “A and B” can occur in m · n ways. In other words if the 
 - The length of a bit string does not discrimanate from 1 or 0.
 - $B^n$ is the set of all n-bit strings.
 - $B^n_k$ is the set of all n-bit strings of weight k.
+- Recurrence relation is when we use one instance of our counting problem in terms of two simpler instances of the problem.
+- Integer Lattice is the set of all points in the Cartesian plane for which
+both the x and y coordinates are integers like the the intersections of the grid lines. 
+- Latice path is one of the shortest possible paths connecting two points on the lattice, moving only horizontally and vertically. 
+- We can determine length of paths through how many steps a latice path has.
+- Bit strings can represent paths meaning that latice points and bit strings share the same reccurence relation.
+- Binomial coefficients are specificallty the coefficients of a binomial that is fully expanded.
+- $^n_k$ is a symbol for binomial coeeficients
+- Binomial Coefficients are also related to recurrence relation
+- $|B^n_k| = |B^{n-1}_{K-1}| + |B^{n-1}_k|$
