@@ -32,3 +32,5 @@ both the x and y coordinates are integers like the the intersections of the grid
 - $^n_k$ is a symbol for binomial coeeficients
 - Binomial Coefficients are also related to recurrence relation
 - $|B^n_k| = |B^{n-1}_{K-1}| + |B^{n-1}_k|$
+- Counting the k number of elements in a subset with a n amount is equivalent to asking for the amount of bitstrings with k length and n weight.
+- Latice paths also demonstrate similarities with bit strings and sets. Namely in its recurrence relation.
