@@ -17,3 +17,4 @@ There are $2^7 = 128$ substrings that end with 11. Adding this wil the substring
 We already know the amount of substrings that have a weight of 5 and start with 101 (20) and we know that there are 128 substrings that end with 11. Using the same metholodgy as previously results in the following $B^7_3 = (B^5_1+B^5_2) + (B^5_2+B^5_3)$. This simplifies into $(5+10) + (10+ 10)=35$. Adding this to our 20 is 55. However we still need to subtract the duplicates that fufill both conditions, this is easily done understanding that only one of the digits can be 1 and that there are only 4 digits left, if both conditions are fufilled, resulting in this $B^4_1 = 4$ meaning the answer is 51.
 
 ## 5
+To solve we first need to know how many combinations of 3 pennies and 3 nickles are. This can be accomplished using some of the math we did previously, where we found $B^6_3 = B^5_2+B^5_3$ to be 20. Multiplying coins needed for each row results in 120.
