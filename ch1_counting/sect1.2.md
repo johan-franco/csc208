@@ -18,3 +18,4 @@ We already know the amount of substrings that have a weight of 5 and start with 
 
 ## 5
 To solve we first need to know how many combinations of 3 pennies and 3 nickles are. This can be accomplished using some of the math we did previously, where we found $B^6_3 = B^5_2+B^5_3$ to be 20. Multiplying coins needed for each row results in 120.
+All possible combination of rows are $2^6 = 64$, multiply by 6 is 384 coins.
