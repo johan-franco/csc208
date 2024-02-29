@@ -34,3 +34,19 @@ both the x and y coordinates are integers like the the intersections of the grid
 - $|B^n_k| = |B^{n-1}_{K-1}| + |B^{n-1}_k|$
 - Counting the k number of elements in a subset with a n amount is equivalent to asking for the amount of bitstrings with k length and n weight.
 - Latice paths also demonstrate similarities with bit strings and sets. Namely in its recurrence relation.
+
+## .3
+
+- We can rewrite $6!$ as $6*5*4*3*2*1$.
+- Permutation is the possible rearrangment of objects.
+- $6!$ is read as six factorial.
+- Bijective means each element in codomain must be exactly one element of the actual domain. 
+- Because of the similarities between the two we can describe a bijective as a permutation.
+- Problems won't always requiere a full permutation of all the numbers given. 
+- $P(n, k) $ is a k-permutation of n elements. N represents the total number of elements and k is the number of elements that will be used in the permutation. 
+- $P(8, 3) = 8*7*6$ can be rewritten as also $P(8, 3) = \frac{8*7*6*5*4*3*2*1}{3*2*1} = \frac{8!}{5!}$ .
+- $P(8, 3)=\frac{8!}{5!}$ the denominator $5!$ was determined through subtracting three from eight.
+- $P(n, k)=\frac{n!}{(n-k)!}$ is the formula for determining k-permutations of n elements
+- Injective means that an element of the codomain can't be used more than once and depending if the codomain is larger than the domain it is solved easily using the k-permutations of n elements.
+- $^n_k$ and its formula  ($P(n, k)=\frac{n!}{(n-k)!k!}$)is the method to find all combinations of elements. Its formula is extremely similar for the formula to count permutations, the only differentiator is the k! that removes all duplicates that permutations still count.
+- Essentially combinations care for the elements that you are combining and not their order, while permutations do care for the order of the elements you are combining.

@@ -25,3 +25,5 @@ The total combinations of a 10-bit string is $2^10 = 1024$ and the total amount 
 
 ## 7
 Using the same method as before we can calculate the cardinality of 6 or more is the following: $ \frac{\left(10\cdot9\cdot8\cdot7\cdot6\cdot5\right)}{6\cdot5\cdot4\cdot3\cdot2\cdot1}+\frac{\left(10\cdot9\cdot8\cdot7\cdot6\cdot5\cdot4\right)}{7\cdot6\cdot5\cdot4\cdot3\cdot2\cdot1}+\frac{\left(10\cdot9\cdot8\cdot7\cdot6\cdot5\cdot4\cdot3\right)}{8\cdot7\cdot6\cdot5\cdot4\cdot3\cdot2\cdot1}+10+1 = 386$. Note that this is the same as the previous problem as we are essentially asking at the core the same question, which highlights the  the differing methods you can use to get to the same answer.
+
+## 8
