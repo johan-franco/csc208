@@ -1,3 +1,4 @@
+# Exercises
 ## 1
 We can use the formula for combinations as the order of toppings doesn't matter (in the sense that the same toppings rearranged in a different order is not a new topping order). This results in the following $\frac{10!}{(10-3)!3!} = 120$
 
@@ -30,3 +31,20 @@ Using only a height of one and the orgin point we can make 6 triangles using the
 
 ## 7 
 This results in the following $15! = 1.307674368×10^12$ anagrams of uncopyrightable. 
+
+## 8
+I believe we simply act like 'a' is the beginnning of the anagram and then take the combination of rest of the elements. This results in $^7_5 = \frac{7!}{5!\times2!} = 21$. This is because there are 21 different ways to place the 5 's' in assesses meaning there is only 21 unique anagrams that start with 
+'a'.
+
+## 9
+We have 'a' repeating 3 times meaning we must ensure that all 3 are being placed in differing unique places which we can do by recognizing that the length of 'anagram' is 7. This results in $^7_3 = \frac{7!}{4!\times3!} = 35$. There are no more repeating elemnts meaning we can multiply the $35$ by $4!$ as it represents the unique places that the rest of the distinct elements can go, this results in $840$.
+
+## 10
+Using combinations we can find the answer. $^20_4$ (in total 20 people and 4 groups of people) represents the total amount of unique groups can be made for the first group. Since we made the first group already we have less people meaning the unique groups that can be made for the second group is represented by $^16_4$. This continues for all five groups, it can be represented by the following, $(^{20}_4)(^{16}_4)(^{12}_4)(^8_4)(^4_4)  = 3.05540235×10^11$
+
+If each group has to have a board member all we have to do is subtract the total amount of people by 5 (k) and the number of people in each group by 1 (n). This results in the following $(^{15}_3)(^{12}_3)(^{9}_3)(^6_3)(^3_3)  = 168168000$ combinations of 3 man groups. Now we have to calculate the number of ways the board members can be arranged which is represented by $5!$, meaning the total number of cominations is $2.018016×10^10$. 
+
+## 11
+If King Arthur is also considered in the rearrangement then there are $10!$. I assume that King Arthur would stay on his throne though so there is $9! = 362880$ ways to rearrange seating. 
+
+## 12
