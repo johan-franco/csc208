@@ -6,7 +6,7 @@ The answer is 5 * 3 * 17, which is 255. This was calculated using the multiplica
 
 ## 2
 
-A) Assuming you have to only wear one then you have 8 different options for neck-wear (as you cannot choose another).
+A) Assuming you have to onlyE wear one then you have 8 different options for neck-wear (as you cannot choose another).
 
 B) If you must wear one of both then you have 3*5 options, which is 15.
 
