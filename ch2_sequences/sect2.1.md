@@ -1,4 +1,4 @@
-# Excercises
+# Exercises
 
 ## 1
 Subtracting by 1 results in the numbers all being squares. Since the first term is $a_1$ we can conclude the closed formula is $n^2+1$. 
