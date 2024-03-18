@@ -9,4 +9,5 @@
 
 <img src = "../resources/BEECALC.png"> </img>
 
-    First, we checked the possible paths to the first two hexagons adjacent to the start. 
+    Our solution was that there was 144 paths that the queen bee can use. We found this through adding the previous two spaces number of paths for the new space. We were able to verify this method would work as we started with a smaller pattern where we could verify our reasoning. 
+    
