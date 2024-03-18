@@ -11,4 +11,4 @@
 
     Our solution was that there was 144 paths that the queen bee can use. We found this through adding the previous two spaces number of paths for the new space (Fibonacci Sequence). We were able to verify this method would work as we started with a smaller pattern where we could verify our reasoning. 
     
-    This is similar to question 17 as it also follows the Fibonacci Sequence/Pascal's Triangle. Moreover, the final number of paths to the end square, 144 is the same as the sum of the total amount of strings with certain lengths (17 B.).
+    This is similar to question 17 as it also follows the Fibonacci Sequence. Moreover, the final number of paths to the end square, 144 is the same as the sum of the total amount of strings with certain lengths (Question 17 Part B.).
