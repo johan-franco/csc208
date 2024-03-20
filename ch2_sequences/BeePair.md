@@ -15,6 +15,22 @@
 
 <img width="654" alt="Screenshot 2024-03-20 at 6 45 52 AM" src="https://github.com/johan-franco/csc208/assets/114693176/e67ffe3e-4392-48f4-b6ce-8401b1545fa8">
 
+$1 = 1$
+
 <img width="655" alt="Screenshot 2024-03-20 at 6 45 36 AM" src="https://github.com/johan-franco/csc208/assets/114693176/8a720783-3597-4acf-a5a9-c3ab76c7d532">
 
+$1 + 1 = 2$
+
 <img width="641" alt="Screenshot 2024-03-20 at 6 45 21 AM" src="https://github.com/johan-franco/csc208/assets/114693176/2945cadf-6cf6-48f1-a98d-a30acdab3b11">
+
+$1 + 2 = 3$
+
+$2 + 3 = 5$
+
+$3 + 5 = 8$
+
+$5 + 8 = 13$
+
+
+
+![image](https://github.com/johan-franco/csc208/assets/114693176/a577a107-b64e-4960-bacf-335b36b7270b)
