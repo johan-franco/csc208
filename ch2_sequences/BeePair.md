@@ -12,3 +12,5 @@
     Our solution was that there was 144 paths that the queen bee can use. We found this through adding the previous two spaces number of paths for the new space (Fibonacci Sequence). We were able to verify this method would work as we started with a smaller pattern where we could verify our reasoning. 
     
     This is similar to question 17 as it also follows the Fibonacci Sequence. Moreover, the final number of paths to the end square, 144 is the same as the sum of the total amount of strings with certain lengths (Question 17 Part B.).
+
+<img width="654" alt="Screenshot 2024-03-20 at 6 45 52 AM" src="https://github.com/johan-franco/csc208/assets/114693176/e67ffe3e-4392-48f4-b6ce-8401b1545fa8">
