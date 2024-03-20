@@ -15,3 +15,8 @@
 - Given any sequence $(a_n)n_{∈N}$, we can always form a new sequence
 $(b_n)_{n∈N}$ by $b_n =  a_0 + a_1 + a_2 +$ $· · ·$  $+ a_n$
 - This means that b_n can be called the sequence of partial sums of a_n (you can sometimes find the closed formula for b_n through a_n).
+
+## .2
+- Arthmetic Sequences are sequences that have a common difference of d. Its recursive definition is $ a_n = a_{n-1} + d$ with $a_0 = a$. The closed formula is $a_n = a + dn$.
+- If the difference is not constant but the ratio between succesive terms is constant (constant ratio) then it is geometric sequence.
+- Geometric sequences have a recursive definition of $ a_n = ra_{n-1}$ with $a_0 = a$ and a closed formula of $a_n = a * r^n$
