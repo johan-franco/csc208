@@ -27,3 +27,8 @@ $(b_n)_{n∈N}$ by $b_n =  a_0 + a_1 + a_2 +$ $· · ·$  $+ a_n$
 - Sequences can also be interpreted as sequence of partial sums of arthmitic or geometric sequences.
 - We can reverse and add to work out the sum for any arthmetic sequence. Essentially we add the first and last term, multiply it by the number of terms inbetween the two and then divide by two. Using this we can find closed formula for sequences of partial sums.
 - We can find the sum of a geometric sequence through multiplying, shift and subtract. Essentially we multiply the sequence by its common ratio so each term transforms into the next term, we then subtract the sequence, which leaves us with either -S or S (depending on how you subtracted) equals 2 terms (simplify and thats your answer).
+## .3
+
+## .4
+
+## .5
