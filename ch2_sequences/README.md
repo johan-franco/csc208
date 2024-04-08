@@ -28,7 +28,18 @@ $(b_n)_{n∈N}$ by $b_n =  a_0 + a_1 + a_2 +$ $· · ·$  $+ a_n$
 - We can reverse and add to work out the sum for any arthmetic sequence. Essentially we add the first and last term, multiply it by the number of terms inbetween the two and then divide by two. Using this we can find closed formula for sequences of partial sums.
 - We can find the sum of a geometric sequence through multiplying, shift and subtract. Essentially we multiply the sequence by its common ratio so each term transforms into the next term, we then subtract the sequence, which leaves us with either -S or S (depending on how you subtracted) equals 2 terms (simplify and thats your answer).
 ## .3
-
+- $\Delta^k$-constant is what we call sequences that have kth differences that are all constant. So a $\Delta^3$-constant means the sequence has three differences (differences of differences of differences of the sequence)
+- If we continue to take the differences of a sequence and are left with the same sequence then the that means no finite number of sequences will be constant thus it is not $\Delta^k$-constant.
+- $\Delta^0$-constant means the closed formula is solely the number, $\Delta^1$-constant means a arthmetic sequence, $\Delta^2$-constant are the sum of an arthmetic sequence (closed formula is a quadratic).
+- An increase in the number of differences means an increase in polynomial.
 ## .4
-
+- Plug the closed formula into the recurrence relation to check if your closed formula is correct (should return your closed formula).
+- Telescoping refers to the phenomenon when many terms in a large sum cancel out—so the sum “telescopes. Ex: $ (2 - 1) + (3 - 2) + (4 - 3) + \cdots + (100 - 99) + (101 - 100) = -1 + 101 $ This is because shifting the problem results in 2-2 and 3-3 but leaves -1 and 101.
+- Telescoping can simplify recursive problems into closed formulas this can be done with a recursive problem that can be simplified into $a_n -a_{n-1}  = f(n).
+- We can use iterating to also find the closed formula. Essentially you iterate the process of finding the next term, starting with the known initial condition, up until you have $a_n$
+- Essentially if a reccurence relation follows $+a_n + \alpha a_{n-1} + \beta a_{n-2} = 0$ the characteristic polynomial is $x^2 + \alpha x + \beta $ which we can use to solve for r that results in us solving the occurence relation (where a and b are determined in intial conditions).
+- If there is only root then $ a_n = ar^n + bnr^n $ is solution to the characteristic polynomial is 
 ## .5
+- Inductive proof structure is first using a base case and than assuming your statement is true prove why P(k+1) is true.
+- You start with Let P(n) be the statement ... and end with Therefore by the principle of mathematical induction, the statement P(n) is true for all  $n> 1$ (depends on what you are trying to prove).
+- You want to understant the idea of the argument (what is occuring), which you do by increasing n. 
