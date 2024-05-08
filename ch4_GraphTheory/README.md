@@ -27,4 +27,10 @@
 - There can only be one complete graph for a given amount of vertices, which we call $K_n$.
 - Every vertex in a complete graph $K_n$ would be adjacent to n-1 vertices 
 - The number of edges from a given vertex the degree of that vertex, so all $K_n$ vertices would have n-1 degree. Using this logic this means the amount of edges in $K_n$ is $n(n-1)/2$
-- 
+- In general the sum of all vertices degrees will always be twice the amount of edges meaning the sum is even. This called the Handshake Lemma.
+- LEmma can be written as this(d(v) represents degree of vertex v)$\sum_{v\in V} d(v) = 2e\text{.}$
+- The degree sequence is a list of every degree of every vertex in the graph, generally written in non-increasing order, if you have you would be able to find the amount of edges.
+- In any graph, the number of vertices with odd degree must be even.
+- A graph is biparite if vertices can be divided into two sets, A and B with none of them having any adjacent vertices within themselves. However they can be adjacent to the vertices in the other set (a with b and b with a). 
+- If each vertex in A is adjacent to all vertices in B then it is a complete biparite graph and receives the name of K_{mn} .
+
