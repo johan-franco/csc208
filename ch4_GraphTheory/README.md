@@ -33,4 +33,22 @@
 - In any graph, the number of vertices with odd degree must be even.
 - A graph is biparite if vertices can be divided into two sets, A and B with none of them having any adjacent vertices within themselves. However they can be adjacent to the vertices in the other set (a with b and b with a). 
 - If each vertex in A is adjacent to all vertices in B then it is a complete biparite graph and receives the name of K_{mn} .
+- Bijective between sets means that each element in the two sets has one corresponding element from the other
+- 
 
+## .2
+- Forest is a graph with no cycles, meaning that it does not necessarily have to be connected.
+- Tree on the other hand is a connected graph with no cycles.
+- Rooted trees are where we designate a vertex as the root
+-  A connected forest is a tree
+- An alternative definition of a tree is "A graph T is a tree if and only if between every pair of distinct vertices of T there is a unique path."
+- A graph F is a forest if and only if between any pair of vertices in F there is at most one path.
+- Any tree with at least two vertices has at least two vertices of degree one.
+- Vertices with a degree of one are called leaves
+- The amount of edges on a tree will always be one less than 1 of the vertices.
+- If vertices are adjacents they are parent while the other is a child to the other.
+- The child of a child is a granchild
+- Descendent and ancestor are also used if the vector provided forms a path to root.
+- vertices can also be called cousin or siblings if they have same parent but aren't adjacent to eachother.
+- A spanning tree is a graph that is a subgraph of a graph that has all vertices.
+- Every connected graph has a spanning tree
