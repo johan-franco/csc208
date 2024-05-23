@@ -1,4 +1,8 @@
 # Exercises
+## 7. <br>(A) Why is a forest a good name? <br> (B) Suppose $F$ is a forest consisting of $m$ trees and $v$ vertices. How many edges does $F have? Explain <br>(C) Prove that any graph $G$ with $v$ vertices and $e$ edges that satisfies $v < e + 1$ must contain a cycle (i.e., not be a forest).
+![marinanswer](../resources/ex7.jpg)
+
+
 
 ## 15. Prove that every connected graph which is not itself a tree must have at last three different (although possibly isomorphic) spanning trees.
 
@@ -6,7 +10,7 @@ Understand the following:
 - A connected graph means that every vertex has an edge that connects it to the rest of the graph
 - A tree is a connected graph in itself that simply contains no cycles (so no loops).
 - A spanning tree is a subgraph that is a tree with all the vertices of the graph it was a connected subgraph of.
-- **Graphs can contain multiple subgraphs that are a cycle**
+- **Graphs can contain multiple cycles, meaning that it has subgraphs of singular cycles**
 - **A tree with vertices n has an edge amount of n-1, meaning the minimum edges a connected graph can have while still not being a tree is n**
 - **The minimum of vertices needed to create a cycle is 3 as a cycle is a loop/path that starts and stops on the same vertex without containing repeated vertices.**
 - Therefore if we prove that you can make 3 spanning trees from the minimum amount of vertices needed to create a cycle, this should be true.
@@ -21,13 +25,22 @@ $G_1$ contains n edges meaning removing one edge will result in n-1 edges, which
 ![01](../resources/01removed.png)
 ![12](../resources/21removed.png)
 ![02](../resources/02removed.png)
+Given this is the minimum amount of vertices needed for a cycle and that all graphs with a singluar cycle only need to remove one edge to become a spanning tree, every connected graph has at least three different spanning trees. 
 
 Case 2:
 Suppose $G$ is a graph with multiple cycles. This means it can be split up as subgraphs with only one cycle, which is why they would have at least more than 3 spanning trees. The only thing to be mindful of is that they would share edges in a graph with multiple cycles, so that would affect the amount of spanning trees, however it would still exceed 3 as there will be combinations of edge removals resulting in different spanning trees. Here is an example of this:
 
 ![multcycles](../resources/multcycles.png)
+![exmult](../resources/exmult.png)
+![moreex](../resources/moremultex.png)
+![14mult](../resources/14multex.png)
 
-Given this is the minimum amount of vertices needed for a cycle and that all graphs with a singluar cycle only need to remove one edge to become a spanning tree, every connected graph has at least three different spanning trees. 
+Given the following two cases considered, every connected graph has at least three different spanning trees. 
+
+
+
+
+
 ## 7 
 ### (A) We define a forest to be a graph with no cycles. Explain why this is a good name. That is, explain why a forest is a union of trees.
 Other than having no cycles forests also don't need to have all vertices connected, while trees do.  If we were to have a forest with 3 disconnected groups of vertices, (all the vertices in a group are connected to eachother only) we could say that the forest is a union of three trees. After all, each if we were to take a subgraphs of the 3 groups it would result into 3 different trees.
