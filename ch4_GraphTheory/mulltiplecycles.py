@@ -9,7 +9,7 @@ G.add_nodes_from([1, 2, 3, 4, 5])
 G.add_edges_from([(1, 2), (2, 3), (3, 4), (4, 1)])  # Cycle 1
 G.add_edges_from([(1, 5), (5, 4)])                 # Cycle 2
 G.add_edges_from([(2, 5)])                        
-G.remove_eedge(2,5)
+#G.remove_eedge(2,5)
 
 #G.remove_edge(4,1) (removing this specific edge is not working for whatever reason)
 #G.remove_edge(3,4)

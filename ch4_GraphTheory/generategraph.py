@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-G = nx.complete_graph(3)
+G = nx.complete_graph(4)
 
 pos = {0: (0, 0.5), 1: (1, 0.5), 2: (0.5, 1.5)}
 
