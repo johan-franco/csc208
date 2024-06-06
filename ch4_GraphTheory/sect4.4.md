@@ -58,3 +58,7 @@ Now we want to see if there are any cliques (complete graphs) to see if there is
 ##  14. Prove that if you color every edge of $K_6$ either red or blue, you are guaranteed a monochromatic triangle (that is, an all red or an all blue triangle).
 
     Suppose we have complete graph $K_6$. This means that a vertex $V$ is connected to three other vertices by edges of the same color. Assume these vertices are *A*, *B* and *C*, as this is a complete graph the 3 vertices are connected to eachother in a manner that they are a triangle, meaning there are 3 edges between themselves. Therefore, as they can only be colored as red or blue one of these three edges between them must be the same color of the edge that they are connected to vertex *V* by. Otherwise if the vertices between them were all the same color then that in itself would be the monochromatic triangle. Thus proving that coloring the edges of $K_6$ no matter what will gurantee a monochromatic triangle.
+
+![proof14](../resources/proof14.png)
+
+To help further prove this I created a python program that randomizes the edge colors from either red or blue. Thus if we run this program we should also be able to see a triangle.  [Randomizer](randomk6.py)
