@@ -5,6 +5,7 @@ In other words any graph that is not a complete graph or odd cycle will have a m
 
 This can be seen in the following graph:
 ![exampleofbrook](../resources/followsbrook.png)
+The highest number of degrees of the vertices is 3 and the necessary colors to properly color is 3.
 
 The two exceptions to this theoreom are demonstrated by the following graphs:
 ![oddcycles](../resources/incorectoddcycle.png)
@@ -48,3 +49,12 @@ Now we want to see if there are any cliques (complete graphs) to see if there is
 
 ![coloredcube](../resources/CUBE.png)
 
+## 13. Suppose you colored edges of a graph either red or blue (not requiring that adjacent edges be colored differently). What must be true of the graph to guarantee some vertex is incident to three edges of the same color? Prove your answer.
+
+    Suppose we have a graph with a vertex that has a degree of 5. Then as the edges in this graph can be either colored red or blue, by the fourth colored edge, if we haven't yet reached three edges of the same color, there must be 2 edges colored blue and 2 red. Therefore, no matter what color we give the fifth edge there will be some vertex incident to three edges of the same color (pigeonhole principle). This implies that what must be true of a graph to gurantee a vertex being incident to three degrees of the same color is that there is a vertex of degree 5. 
+
+![3edges](../resources/3edges.png)
+
+##  14. Prove that if you color every edge of $K_6$ either red or blue, you are guaranteed a monochromatic triangle (that is, an all red or an all blue triangle).
+
+    Suppose we have complete graph $K_6$. This means that a vertex $V$ is connected to three other vertices by edges of the same color. Assume these vertices are *A*, *B* and *C*, as this is a complete graph the 3 vertices are connected to eachother in a manner that they are a triangle, meaning there are 3 edges between themselves. Therefore, as they can only be colored as red or blue one of these three edges between them must be the same color of the edge that they are connected to vertex *V* by. Otherwise if the vertices between them were all the same color then that in itself would be the monochromatic triangle. Thus proving that coloring the edges of $K_6$ no matter what will gurantee a monochromatic triangle.
