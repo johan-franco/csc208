@@ -1,6 +1,8 @@
 ## Brooks' Theorem
 Any graph $G$ satisfies $\chi(G) \le \Delta(G)\text{,}$ unless $G$ is a complete graph or an odd cycle, in which case $\chi(G) = \Delta(G) + 1\text{.}$.
 
+Now we go back to [Trostin's Presentation](https://github.com/bananajoeo7/csc208/blob/main/presentations/Chapter_4/Chapter_4.4_Presentation.md)
+
 In other words any graph that is not a complete graph or odd cycle will have a maximum chromatic number that is equal or less than the largest degree of a vertice in a graph. 
 
 This can be seen in the following graph:
