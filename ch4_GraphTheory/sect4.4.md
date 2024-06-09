@@ -45,9 +45,9 @@ This can be seen in the following graph:
 The highest number of degrees of the vertices is 3 and the necessary colors to properly color is 3.
 
 The two exceptions to this theoreom are demonstrated by the following graphs:
-![oddcycles](../ch4_GraphTheory/ColoringResources/incorectoddcycle.png)
+![oddcycles](../ch4_GraphTheory/ColoringResources/incorrectoddcycle.png)
 This is a graph with an odd cycle, which due to that aspect requieres for a color more than the highest degree for the vertices of the graph, 2.
-![completegrap](../ch4_GraphTheory/ColoringResources/completegraphbrook.png)
+![completegrap](../ch4_GraphTheory/ColoringResources/brookcompletegraph.png)
 This is graph $K_4$ and due to completed graphs having all vertices connecting to every other vertices this means that all vertices need to have a different color as otherwise they wouldn't be properly colored. The highest degree for the vertices is 3 while we need 4 different colors to properly color the graph, demonstrating th exception in Brook's Theorem.
 
 ## Coloring Edges:
